@@ -1,0 +1,13 @@
+package com.marolix.book.service;
+
+import java.util.List;
+
+import com.marolix.book.dto.BookDto;
+import com.marolix.book.entity.BookDetails;
+
+public interface Service {
+public String addBook(BookDto bto);
+public List<BookDetails> viewAllDetails();
+public String updateDetails (Integer productId,String BookName) throws Exception;
+
+}
